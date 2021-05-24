@@ -1,0 +1,129 @@
+.topmenu > ul > li > a:link, .topmenu > ul > li> a:visited, .category1 > ul > li > a:link, .category1 > ul > li > a:visited,
+.flist > li> a:link, .flist > li > a:visited
+{color: black; text-decoration: none;}
+
+.clear { clear: both;}
+/* header 영역 */
+.topmenu {  position: absolute;
+            left: 900px;
+            font-size: 12px; }
+
+.topmenu > ul > li { list-style-type: none;
+                 display:inline-block;
+                 margin-left: 10px;
+                 margin-right:10px;
+                 margin-top:10px; }
+
+.topmenu > ul { display: inline;
+                float: right;}
+
+.logo > h1 { position: relative;
+    left: 240px;
+    top: 30px;
+    display: block;
+      float: left; }
+
+.search > form {  position: absolute;
+        top: 130px;
+        left: 650px;}
+
+.search > form > input[type=text] {  border: 2px solid #c9b097;
+                    border-radius: 20px;
+                    width: 360px;
+                    height: 35px; }
+
+.search > form > input[type=submit] { background-color: #c9b097;
+                      border: none;
+                      color: white;
+                      padding: 5px 10px;
+                      text-decoration: none;
+                      margin: 5px;
+                      cursor: pointer;
+                      position: absolute;
+                      right: 13px;
+                      top: 1.5px;
+                      border-radius: 50px; }
+
+.category1 {  position: absolute;
+              left:280px;
+              top: 237px;
+              z-index: 3;}
+
+.category1 > ul > li > img { position: relative; top:2px; }
+
+.category1 > ul > li {  list-style-type: none;
+                        width: 165px;
+                        float: left; }
+
+/* box 영역 */
+.box { width:100%; height: 900px; text-align: center;}
+
+.box > div {display: inline-block; width:50em; height: 900px; padding-top: 50px; text-align: center;}
+
+.box > div > h1 {font-style: italic; font-weight: normal;}
+
+.box > div > img { width: 100px; margin: 50px 0px;}
+
+.gift {background-color: rgba(201, 176, 151, 0.6); width: 55%;  display: inline-block;
+       border-radius: 40px; text-align: center; padding : 60px 20px; margin: 45px 0px;}
+
+.box > div > div > span {font-size: 2em; font-weight: 500;}
+
+.go {background-color: rgba(201, 176, 151, 0.6); width: 55%; display: inline-block; text-align: center; border-radius: 5px; }
+
+.go > h2, .go > div {display: inline-block;}
+
+.go > div {position: relative; top: -6px;}
+
+.go > div > input {background-color: #585757; border-style: none; color: white; border-radius: 3px; width: 40px; height: 30px; margin: 0px 20px;}
+
+
+/* footer 영역 */
+.footbox { background-color: #efefef ;
+            width: 1300px;
+            padding-top: 40px;
+            padding-bottom: 40px;
+            border-top-style: solid;
+            border-top-width: 1px;
+            border-top-color: #9c8e8e;
+            border-bottom-style: solid;
+            border-bottom-width: 1px;
+            border-bottom-color: #9c8e8e;
+            margin-left: auto;
+            margin-right: auto;
+            position: relative;
+            top: 10px;}
+
+.footinbox { background-color: #f6f6f6 ;
+            width: 1300px;
+            height: 200px;
+            border-top-style: solid;
+            border-top-width: 1px;
+            border-top-color: #9c8e8e;
+            border-bottom-style: solid;
+            border-bottom-width: 1px;
+            border-bottom-color: #9c8e8e;
+            margin-left: auto;
+            margin-right: auto;
+            margin-top: auto;
+            margin-bottom: auto;}
+
+.flist > li { list-style-type: none;
+              padding: 0px 20px;
+              float: left;
+              position: relative;
+              left: 97px;
+              top: -38px;}
+
+.footbox { text-align: center; }
+
+.finallylogo {width: 180px;}
+
+.footinbox > .table { display: inline-block;
+                      padding: 10px 30px;}
+
+.underline {text-decoration: underline;}
+
+.me {font-size: 13px; text-align: left;}
+
+.copyright {font-size: 1px;  }

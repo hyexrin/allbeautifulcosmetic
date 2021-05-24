@@ -1,0 +1,128 @@
+.box > div {display: inline-block; float: left;}
+.box {width:100%; height: 5200px; padding: 80px 10%}
+
+.b1 { width: 40%; height: 600px;}
+.b2, .b3, .b4, .b5 {width: 40%; height: 150px;}
+.b6 {width: 80%; height: 150px;}
+.b7 {width: 80%; height: 3600px;}
+
+.topmenu > ul > li > a:link, .topmenu > ul > li> a:visited, .category1 > ul > li > a:link, .category1 > ul > li > a:visited,
+.flist > li> a:link, .flist > li > a:visited
+{color: black; text-decoration: none;}
+
+.clear { clear: both;}
+/* header 영역 */
+.topmenu {  position: absolute;
+            left: 900px;
+            font-size: 12px; }
+
+.topmenu > ul > li { list-style-type: none;
+                 display:inline-block;
+                 margin-left: 10px;
+                 margin-right:10px;
+                 margin-top:10px; }
+
+.topmenu > ul { display: inline;
+                float: right;}
+
+.logo > h1 { position: relative;
+    left: 240px;
+    top: 30px;
+    display: block;
+      float: left; }
+
+.search > form {  position: absolute;
+        top: 130px;
+        left: 650px;}
+
+.search > form > input[type=text] {  border: 2px solid #c9b097;
+                    border-radius: 20px;
+                    width: 360px;
+                    height: 35px; }
+
+.search > form > input[type=submit] { background-color: #c9b097;
+                      border: none;
+                      color: white;
+                      padding: 5px 10px;
+                      text-decoration: none;
+                      margin: 5px;
+                      cursor: pointer;
+                      position: absolute;
+                      right: 13px;
+                      top: 1.5px;
+                      border-radius: 50px; }
+
+.category1 {  position: absolute;
+              left:280px;
+              top: 237px;
+              z-index: 3;}
+
+.category1 > ul > li > img { position: relative; top:2px; }
+
+.category1 > ul > li {  list-style-type: none;
+                        width: 165px;
+                        float: left; }
+
+/* box 영역 */
+.brand {font-size: 30px;}
+
+.left {font-size: 20px;}
+.right, .right1, .right2 { display: inline-block; float: right;font-size: 20px; padding-right: 0px; width: auto;}
+.right2 {color:orange; font-weight: bold; font-size: 1.3em}
+.choice {width: 100%; height: 40px; border-radius: 5px;}
+.b5 {text-align: center;}
+.cart { color: white; font-size: 25px;background-color: rgba(201, 176, 151, 0.6); border-style: none; border-radius: 4px; width: 180px; height: 50px;}
+.buy { color: black; font-size: 25px;background-color: rgb(224, 224, 224); border-style: none; border-radius: 4px; width: 180px; height: 50px;margin-left: 30px}
+.b6{text-align: right;}
+.b7 {text-align: center;}
+
+
+/* footer 영역 */
+.footbox { background-color: #efefef ;
+            width: 1300px;
+            padding-top: 40px;
+            padding-bottom: 40px;
+            border-top-style: solid;
+            border-top-width: 1px;
+            border-top-color: #9c8e8e;
+            border-bottom-style: solid;
+            border-bottom-width: 1px;
+            border-bottom-color: #9c8e8e;
+            margin-left: auto;
+            margin-right: auto;
+            position: relative;
+            top: 10px;}
+
+.footinbox { background-color: #f6f6f6 ;
+            width: 1300px;
+            height: 200px;
+            border-top-style: solid;
+            border-top-width: 1px;
+            border-top-color: #9c8e8e;
+            border-bottom-style: solid;
+            border-bottom-width: 1px;
+            border-bottom-color: #9c8e8e;
+            margin-left: auto;
+            margin-right: auto;
+            margin-top: auto;
+            margin-bottom: auto;}
+
+.flist > li { list-style-type: none;
+              padding: 0px 20px;
+              float: left;
+              position: relative;
+              left: 97px;
+              top: -38px;}
+
+.footbox { text-align: center; }
+
+.finallylogo {width: 180px;}
+
+.footinbox > .table { display: inline-block;
+                      padding: 10px 30px;}
+
+.underline {text-decoration: underline;}
+
+.me {font-size: 13px; text-align: left;}
+
+.copyright {font-size: 1px;  }
